@@ -1,0 +1,44 @@
+/*@font-face {
+  font-family: "BebasNeueRegular";
+  src: url("../../public/BebasNeueRegular.ttf");
+}*/
+#custom-footer {
+  height: 32px;
+  position: absolute;
+  bottom: 0;
+  z-index: 9999;
+  user-select: all; /* supported by Chrome and Opera */
+  -webkit-user-select: all; /* Safari */
+  -khtml-user-select: all; /* Konqueror HTML */
+  -moz-user-select: all; /* Firefox */
+  -ms-user-select: all; /* Internet Explorer/Edge */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: BebasNeueRegular, "Segoe UI", Helvetica, Arial, Tahoma, Geneva, Verdana, sans-serif;
+  /* 16 * 0.0625  = 1px */
+  letter-spacing: 0.0625em;
+}
+body {
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  background-color: black !important;
+  color: #fff;
+}
+img {
+  margin: 0;
+  padding: 0;
+}
+.react-images__positioner {
+  overflow-y: scroll;
+}
+.react-images__footer__count {
+  display: none;
+  visibility: hidden;
+}
+
